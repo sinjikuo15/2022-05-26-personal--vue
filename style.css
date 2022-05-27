@@ -1,0 +1,197 @@
+:root{
+    --main-color:#FCF9EE;        
+}
+body{
+    background-color: white;
+    margin:0px ;
+    padding: 0px;
+}
+
+/* Header部分 */
+.main-header{
+    background-color: var(--main-color);
+    justify-content:space-around;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* height: 70px;       */
+}
+.main-nav{
+    display: inline-block;
+    width:400px;
+}
+.main-nav ul{
+    display: flex;
+}
+.list-unstyled{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list-unstyled a{
+    text-decoration: none;
+    color: #1c1c1c;
+    padding: 0px 15px;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 3px;   
+    
+}
+.list-unstyled a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #1c1c1c;
+}
+.JML-wrapper figure{
+    width: 100px;
+    height:60px;
+    position: relative;
+}
+.JML-logo{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.header-right-aside{
+    display: flex;    
+}
+.all-logo{
+    font-size: 20px;
+    color: #1c1c1c;
+    display: block;
+    padding: 10px;
+}
+.search{
+    margin-bottom: 70px;
+}
+.search p{
+    text-decoration: underline;        
+}
+.present{
+    background-color: var(--main-color);
+    text-align: center;
+    display: block;
+    padding:10px 20px ;
+    font-size:30px;
+}
+@media screen and (max-width:768px) {
+    .gifts{
+        display: none;
+    }
+    .shops{
+        display: none;
+    }
+    .bookmark{
+        display: none;
+    }
+    .person{
+        display: none;
+    }
+    /* .main-nav ul{
+        display: none;
+    } */
+    .shop-search{
+        display: none;
+    }
+}
+/* 購物選單彈出視窗 */
+.main-saler{
+    background-color: var(--main-color);
+    margin: 0px;
+    
+}
+.saler figure{
+   display: inline-block;
+   max-width: 500px;
+   background-color: var(--main-color);
+   /* margin-right: 60px; */
+}
+.saler p{
+   text-align: center;
+   margin: 5px 0px;
+   font-size: 12px;
+} 
+.saler{
+   text-align: center;
+}
+.wild {
+    width: 100%
+}
+/* 按鈕功能寫在html裡面 */
+/* .saler-btn{
+background-color: var(--main-color); 
+border: 1px solid rgb(218, 216, 216);
+color: black;
+border-radius: 0px;
+padding: 10px 30px;
+font-size: 12px;
+letter-spacing: 1px;
+margin: 10px 0px;
+} 
+.inline-ele{
+    display: block ;
+}
+.saler-btn:hover{
+background-color: var(--main-color); 
+border: 1px solid rgb(218, 216, 216);   
+} */
+.modal-title{ /* 彈出式視窗標題可以置中 */
+   text-align: center;
+}
+th{
+    padding: 15px 10px;
+}
+td{
+    padding: 10px 10px;
+}
+td a{
+text-decoration: none;
+font-size: 10px;
+color: black;
+}
+td a:hover{
+text-decoration: underline;
+font-size: 10px;
+color: black;
+}
+.main-footer{
+    background-color: white;
+}
+
+/* 最尾端 */
+.last-footer {
+    background-color: var(--main-color);
+    text-align: center;
+}
+.official-wrapper {
+    width: 100px;
+    height: 60px;
+    margin-left: 45%;
+    margin-right: 50%;
+}
+
+/* 會員登入、註冊按鈕 */
+.member-btn {
+    font-size: 15px;
+    padding: 5px 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+  }
+  .member-btn:hover {
+    font-size: 15px;
+    padding: 5px 30px;
+    background-color: #FCF9EE;
+    color: black;
+    border: 1px solid;
+  }
+
+
+  .hidden {
+    display: none;
+}
+/* .shadow {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.3);
+} */
